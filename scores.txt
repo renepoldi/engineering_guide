@@ -1,0 +1,27 @@
+[Ho_One]
+pointsperround_2_who = DefaultPlayer
+pointsperround_2 = 0
+pointsperround_1 = 0
+pointsperround_1_who = DefaultPlayer
+pointsperround_3 = 0
+pointsperround_3_who = DefaultPlayer
+
+[321_Zlip]
+zlipped_1_who = DefaultPlayer
+pointsperround_1_who = DefaultPlayer
+zlips_2_who = DefaultPlayer
+zlips_2 = 0
+zlips_3 = 0
+zlips_1_who = DefaultPlayer
+zlips_1 = 0
+pointsperround_2_who = DefaultPlayer
+zlipped_1 = 0
+zlipped_2 = 0
+zlipped_3 = 0
+zlipped_3_who = DefaultPlayer
+zlips_3_who = DefaultPlayer
+pointsperround_2 = 0
+pointsperround_1 = 0
+zlipped_2_who = DefaultPlayer
+pointsperround_3 = 0
+pointsperround_3_who = DefaultPlayer
