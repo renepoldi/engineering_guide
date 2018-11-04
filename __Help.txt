@@ -1,0 +1,40 @@
+--- Pydarts Help Page ---
+
+[ Main options ]
+--help | -h		print this help page
+--soundvolume=		set sound volume (%)
+--debuglevel=		verbosity level (1-4) 1:Debug 2:Warnings 3:Errors 4:Fatal errors
+--solo=			time between players (s) (0 means you need to push PLAYER)
+--fullscreen		enable fullscreen (bypass resx and resy)
+--resx=			X resolution (pixels)
+--resy=			Y resolution (pixels)
+--config=		use an alternate config file (relative to your $HOME/.pydarts config folder)
+--scoreonlogo		display score on logo instead of displaying it on the middle of the screen
+
+[ Network options ]
+--netgamename=		preset network game name
+--servername=		preset network game server or ip address
+--serveralias=		preset network server alias (usefull to send to master server a public IP / behind NAT)
+--serverport=		listen or join server on that port. (Default 5005).
+--masterport=		listen or join master server on that port (default 5006)
+
+[ Servers options ]
+--listen=		listening interface (server & master server only). Default is eth0.
+--serverport=		listen or join server on that port. (Default 5005).
+--masterport=		listen or join master server on that port (default 5006)
+
+[ Advanced options ]
+--locale=		Select pydarts interface language (en_GB, fr_FR, es_ES, de_DE... more languages soon !)
+--bypass-stats		bypass stats updates
+--noserial		bypass serial connexion test
+--serialport=		specify serial port to use
+--serialspeed=		specify serial speed
+--mastertest		create fake games in MasterServer (test purpose)
+--animationduration=	duration for every round animation (ms default:5)
+--forcecalibration=	force board calibration even if config file already exists
+** Usage of Direct-Play Mode (play without using menus - please refer to the wiki):
+--gametype=		preset game type : only "local" is supported for now. No default.
+--selectedgame=		preset game selection (case sensitive). No default.
+--localplayers=		preset players name, comma separated, lower case. No Default.
+			exemple : --localplayers=foo,bar
+
